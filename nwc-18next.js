@@ -11,7 +11,7 @@ const defaults = {
 
 window.$ = document.querySelectorAll.bind(document);
 
-export default function init(i18next, $, options = {}) {
+function init(i18next, $, options = {}) {
 
   options = Object.assign({}, defaults, options);
 
@@ -109,3 +109,5 @@ export default function init(i18next, $, options = {}) {
   // selector function $(mySelector).localize(opts);
   $.fn[options.handleName] = handle;
 }
+
+export default init;

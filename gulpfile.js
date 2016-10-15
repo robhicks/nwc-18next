@@ -9,7 +9,7 @@ let es5Cache, esNextCache;
 
 gulp.task('build:es5', () => rollup({
   cache: es5Cache,
-  entry: './src/nwc-i18next.js.js',
+  entry: './src/nwc-i18next.js',
   external: [],
   plugins: [
     babel(),
