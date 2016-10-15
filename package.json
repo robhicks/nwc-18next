@@ -1,5 +1,5 @@
 {
-  "name": "nwc-18next",
+  "name": "nwc-i18next",
   "version": "1.0.0",
   "description": "Native web component plugin for i18next",
   "main": "./nwc-18next.min.js",
